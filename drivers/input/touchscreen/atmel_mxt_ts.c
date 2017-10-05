@@ -3570,6 +3570,18 @@ static ssize_t mxt_version_show(struct device *dev,
 	return count;
 }
 
+static ssize_t mxt_build_show(struct device *dev,
+	struct device_attribute *attr, char *buf)
+{
+	struct mxt_data *data = dev_get_drvdata(dev);
+	int count = 0;
+
+	count += sprintf(buf + count, "%d", data->info.build);
+	count += sprintf(buf + count, "\n");
+
+	return count;
+}
+
 static ssize_t mxt_pause_show(struct device *dev,
 	struct device_attribute *attr, char *buf)
 {
