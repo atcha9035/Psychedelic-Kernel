@@ -47,7 +47,7 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-capricorn-"
-VER="-v0.2"
+VER="-v0.3"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
 
 rm -rf $ANYKERNEL_DIR/capricorn/*.ko && rm $ANYKERNEL_DIR/capricorn/zImage $ANYKERNEL_DIR/capricorn/dtb
@@ -89,7 +89,7 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-natrium-"
-VER="-v0.2"
+VER="-v0.3"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
 
 rm -rf $ANYKERNEL_DIR/natrium/*.ko && rm $ANYKERNEL_DIR/natrium/zImage $ANYKERNEL_DIR/natrium/dtb
@@ -131,7 +131,7 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-lithium-"
-VER="-v0.2"
+VER="-v0.3"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
 
 rm -rf $ANYKERNEL_DIR/lithium/*.ko && rm $ANYKERNEL_DIR/lithium/zImage $ANYKERNEL_DIR/lithium/dtb
@@ -173,7 +173,7 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-scorpio-"
-VER="-v0.2"
+VER="-v0.3"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
 
 rm -rf $ANYKERNEL_DIR/scorpio/*.ko && rm $ANYKERNEL_DIR/scorpio/zImage $ANYKERNEL_DIR/scorpio/dtb
@@ -215,7 +215,7 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-gemini-"
-VER="-v0.2"
+VER="-v0.3"
 FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
 
 rm -rf $ANYKERNEL_DIR/gemini/*.ko && rm $ANYKERNEL_DIR/gemini/zImage $ANYKERNEL_DIR/gemini/dtb
