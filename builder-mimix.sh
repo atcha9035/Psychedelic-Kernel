@@ -4,8 +4,9 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-lithium-"
-VER="-v0.3"
-FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
+VER="-v0.4-"
+TYPE="MIUI"
+FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER""$TYPE".zip
 
 rm -rf $ANYKERNEL_DIR/lithium/*.ko && rm $ANYKERNEL_DIR/lithium/zImage $ANYKERNEL_DIR/lithium/dtb
 rm $KERNEL_DIR/arch/arm64/boot/Image.gz $KERNEL_DIR/arch/arm64/boot/dt.img $KERNEL_DIR/arch/arm64/boot/Image.gz-dtb
