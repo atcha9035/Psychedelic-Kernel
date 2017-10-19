@@ -47,8 +47,9 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-capricorn-"
-VER="-v0.3"
-FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
+VER="-v0.4-"
+TYPE="MIUI"
+FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER""$TYPE".zip
 
 rm -rf $ANYKERNEL_DIR/capricorn/*.ko && rm $ANYKERNEL_DIR/capricorn/zImage $ANYKERNEL_DIR/capricorn/dtb
 rm $KERNEL_DIR/arch/arm64/boot/Image.gz $KERNEL_DIR/arch/arm64/boot/dt.img $KERNEL_DIR/arch/arm64/boot/Image.gz-dtb
@@ -89,8 +90,9 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-natrium-"
-VER="-v0.3"
-FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
+VER="-v0.4-"
+TYPE="MIUI"
+FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER""$TYPE".zip
 
 rm -rf $ANYKERNEL_DIR/natrium/*.ko && rm $ANYKERNEL_DIR/natrium/zImage $ANYKERNEL_DIR/natrium/dtb
 rm $KERNEL_DIR/arch/arm64/boot/Image.gz $KERNEL_DIR/arch/arm64/boot/dt.img $KERNEL_DIR/arch/arm64/boot/Image.gz-dtb
@@ -131,8 +133,9 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-lithium-"
-VER="-v0.3"
-FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
+VER="-v0.4-"
+TYPE="MIUI"
+FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER""$TYPE".zip
 
 rm -rf $ANYKERNEL_DIR/lithium/*.ko && rm $ANYKERNEL_DIR/lithium/zImage $ANYKERNEL_DIR/lithium/dtb
 rm $KERNEL_DIR/arch/arm64/boot/Image.gz $KERNEL_DIR/arch/arm64/boot/dt.img $KERNEL_DIR/arch/arm64/boot/Image.gz-dtb
@@ -173,8 +176,9 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-scorpio-"
-VER="-v0.3"
-FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
+VER="-v0.4-"
+TYPE="MIUI"
+FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER""$TYPE".zip
 
 rm -rf $ANYKERNEL_DIR/scorpio/*.ko && rm $ANYKERNEL_DIR/scorpio/zImage $ANYKERNEL_DIR/scorpio/dtb
 rm $KERNEL_DIR/arch/arm64/boot/Image.gz $KERNEL_DIR/arch/arm64/boot/dt.img $KERNEL_DIR/arch/arm64/boot/Image.gz-dtb
@@ -215,8 +219,9 @@ DTBTOOL=$KERNEL_DIR/dtbTool
 DATE=$(date +"%d%m%Y")
 KERNEL_NAME="Psychedelic-Kernel"
 DEVICE="-gemini-"
-VER="-v0.3"
-FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER".zip
+VER="-v0.4-"
+TYPE="MIUI"
+FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$VER""$TYPE".zip
 
 rm -rf $ANYKERNEL_DIR/gemini/*.ko && rm $ANYKERNEL_DIR/gemini/zImage $ANYKERNEL_DIR/gemini/dtb
 rm $KERNEL_DIR/arch/arm64/boot/Image.gz $KERNEL_DIR/arch/arm64/boot/dt.img $KERNEL_DIR/arch/arm64/boot/Image.gz-dtb
